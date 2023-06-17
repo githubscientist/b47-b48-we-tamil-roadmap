@@ -6,10 +6,7 @@
     Arrow Functions
     IIFE
     Template literals
-
     spread & rest operators
     array & object destructure
     Object property shorthand
-
-    document and window objects
 */
