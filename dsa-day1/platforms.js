@@ -1,0 +1,12 @@
+/*
+    guvi.in/codekata
+    leetcode.com
+    interviewbit.com
+    hackerrank.com
+    hackerearth.com
+    codechef.com
+    codeforces.com
+    projecteuler.net
+    spoj.com
+    beecrowd.com.br
+*/
