@@ -1,0 +1,12 @@
+https://leetcode.com/problems/two-sum/
+
+Methods:
+
+1. insertAtHead
+2. deleteAtHead
+3. deleteAtTail
+4. length
+
+https://leetcode.com/problems/middle-of-the-linked-list/
+
+https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/

@@ -231,3 +231,137 @@
                                 = O(N^2)
 
 */
+
+/*
+    Example: 7
+
+    let i, j, k = 0;
+    for (i = n / 2; i <= n; i++) { 
+        for (j = 2; j <= n; j = j * 2) {
+            k = k + n / 2;
+        }
+    }
+
+    Time Complexity = O(N logN)
+
+    outer loop: N/2 + 1
+
+    N = 6, i = 3, 4, 5, 6
+    N = 5, i = 3, 4, 5
+
+    inner loop: 
+
+    j = 2, 4, 8, 16, 32, 64, 128, ...., N
+
+    For N = 10; j = 2, 4, 8; executions = 3
+    For N = 29; j = 2, 4, 8, 16; executions = 4
+    For N = 30; j = 2, 4, 8, 16; executions = 4
+    For N = 31; j = 2, 4, 8, 16; executions = 4
+    For N = 40; j = 2, 4, 8, 16, 32; executions = 5
+
+    2^X = N, X is unknown, Solve for X?
+
+    Apply log2 on both the sides,
+
+    log2(2^X) = log2(N)
+
+    X log2(2) = log2(N)
+
+    X(1) = log2(N)
+    X = log2(N)
+
+    total time complexity, T(N) = 1 + (N/2 + 1) * log2(N)
+                                = N/2 * log2(N) + log2(N)
+                                = 1/2 * N log2(N) + log2(N)
+                                = N log2(N) + log2(N)
+                                = N log2(N)
+                                = O(N log2(N))
+*/
+
+// console.log('N =', 10, 'executions:', Math.log2(10));
+// console.log('N =', 29, 'executions:', Math.log2(29));
+// console.log('N =', 30, 'executions:', Math.log2(30));
+// console.log('N =', 31, 'executions:', Math.log2(31));
+// console.log('N =', 40, 'executions:', Math.log2(40));
+
+/*
+    O(2^N)
+
+    Problem: Given an array of values, find all the ways we can select the values from the array
+
+    Input: [1, 2, 3]
+    Output: 8 ways
+
+    Selections: 
+
+    0 values => ()
+    1 values => (1), (2), (3)
+    2 values => (1, 2), (2, 3), (1, 3)
+    3 values => (1, 2, 3)
+
+    Input: [1, 2, 3, 4]
+    Output: 
+
+    Selections:
+
+    0 values => ()
+    1 values => (1), (2), (3), (4)
+    2 values => (1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)
+    3 values => (1, 2, 3), (1, 2, 4), (1, 3, 4), (2, 3, 4)
+    4 values => (1, 2, 3, 4)
+
+    N = 3, executions = 8
+    N = 4, executions = 16
+    N = 5, executions = 32
+
+    2^N
+
+    Time Compleity: O(2^N)
+*/
+
+/*
+    N!
+
+    Problem: Given a string S, find how many ways we can re-arrange the characters to form a new string. Print those strings.
+
+    Input: 'abc'
+    Output: 6
+
+    abc
+    acb
+    bac
+    bca
+    cab
+    cba
+
+    Input: ab
+    Output: 2
+
+    ab
+    ba
+
+    Input: abcd
+    Output: 24
+
+    abcd
+    abdc
+    acbd
+    badc
+    bcda
+    bdca
+    cabd
+    cbda
+    ...
+    ...
+
+    N = 2, Number of ways = 2
+    N = 3, Number of ways = 6
+    N = 4, Number of ways = 24
+    N = 5, Number of ways = 120
+
+    N! = N * N-1 * N-2 * .... * 1
+
+    5! = 5 x 4 x 3 x 2 x 1 = 120
+
+    time Complexity: O(N!)
+*/
