@@ -1,0 +1,49 @@
+Joyal was given a sentence. His task is to delete the two words that comes together and print the sentence so that the words in the output sentence have distinct words compared to their adjacent words. If no words are present in the output sentence print -1
+
+
+Input Description:
+You are given input string 'S'
+
+Output Description:
+Print the all the words that are left in the string 's' so that the words in the output sentence have distinct words compared to their adjacent words. Print -1 if no words are left
+
+Sample Input :
+I am john cena cena john
+Sample Output :
+I am
+
+Solve the above problem without using the Stack DataStructure. Analyse the time complexity of your code.
+
+******************************
+
+Given a string expression examine the correctness of pairs and orders of parantheses using Stack. If it has pair of parentheses print yes else print no
+
+
+Input Description:
+An expression containing various types of Parentheses.
+
+Output Description:
+Print yes or no based on the given input
+
+Sample Input :
+{([])}
+Sample Output :
+yes
+
+******************************
+
+Given a string S of '(' , ')' with alphabets. 
+
+Your task is to remove the minimum number of parentheses ( '(' or ')', in any positions ) so that the resulting string should have balanced opening and closing parentheses.Perform the operation using Stack.
+
+
+Input Description:
+Given a string with parentheses and alphabets.
+
+Output Description:
+Remove the minimum parentheses and print the resultant valid string
+
+Sample Input :
+g(u)((vi)
+Sample Output :
+g(u)(vi)
