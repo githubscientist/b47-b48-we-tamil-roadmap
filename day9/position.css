@@ -1,0 +1,97 @@
+#stat-pos {
+    /* position: static;
+    border: 1px solid blue;
+    width: 600px;
+    height: 100px; */
+    /* bottom: 20px;
+    top: 50px;
+    left: 70px;
+    right: 0; */
+}
+
+/* body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 60px solid transparent;
+    background-color: bisque;
+}
+
+.content {
+    margin-top: 150px;
+    padding: 20px;
+    top: 120px;
+}
+
+.relative {
+    position: relative;
+    width: 400px;
+    border: 3px solid green;
+    height: 200px;
+}
+
+.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid green;
+} */
+
+.sticky {
+    position: sticky;
+    top: 20px;
+    padding: 5px;
+    background-color: lightgreen;
+    border: 2px solid black;
+}
+
+.sticky2 {
+    position: sticky;
+    top: 20px;
+    padding: 5px;
+    background-color: lightgreen;
+    border: 2px solid black;
+}
+
+body {
+    padding: 20px;
+}
+
+.grandparent {
+    padding: inherit;
+    border: 3px solid blue;
+}
+
+.parent {
+    padding: inherit;
+    border: inherit;
+}
+
+.child {
+    padding: inherit;
+    border: inherit;
+}
+
+body {
+    /* background-image: linear-gradient(to left, red, yellow); */
+
+    /* background-image: radial-gradient(circle, red, yellow, green); */
+
+    /* background-image: conic-gradient(red, yellow, green, blue, black); */
+}
+
+#gradient {
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red, yellow, green, blue, black);
+    border-radius: 50%;
+}
