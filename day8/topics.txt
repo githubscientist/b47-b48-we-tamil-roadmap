@@ -1,0 +1,7 @@
+Contents:
+    - What is css?
+    - ways to use css 
+    - property & value 
+    - class vs id 
+    - use of important 
+    - display property: inline, block

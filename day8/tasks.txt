@@ -1,0 +1,15 @@
+Task#1 Changing text color
+
+    - Write the HTML code to create a paragraph with the text "Hello World!" displayed in red color
+
+Task#2 Applying Font styles
+
+    - Create a paragraph with the text "Welcome to our website!" using Arial font, 18px font size and bold weight
+
+Task#3 Setting Background color
+
+    - Build a `div` element with a light gray background color (#f2f2f2) and 10 pixels of padding. place any content inside the `div`
+
+Task#4 Applying border styles
+
+    - construct a div with a solid border, 2 pixels in width and colored #333. Add 10 pixels of padding inside the div.

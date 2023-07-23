@@ -1,0 +1,55 @@
+/* #para1 {
+    color: red;
+    font-style: italic;
+}
+
+#para2 {
+    color: green;
+    font-weight: bold;
+}
+
+#para3 {
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+} */
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#para1 {
+    color: red;
+}
+
+#para2 {
+    color: green;
+}
+
+#para3 {
+    color: blue;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+#headingID {
+    color: red;
+}
+
+.headingClass {
+    color: blue !important;
+}
+
+div {
+    display: inline;
+}
+
+#firstimage {
+    display: block;
+}
