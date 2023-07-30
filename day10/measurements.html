@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        Measurements <br /><br />
+        <div class="pixel-div">
+            <ul>
+                <li>centimeters</li>
+                <li>millimeters</li>
+                <li>in: inches (1 in = 96px = 2.54 cm) </li>
+                <li class="pixels">px: pixels (1 px = 1/96th of 1 in) </li>
+                <li>pt: points (1 pt = 1/72 of 1 in) </li>
+                <li style="font-size: 2rem;">pc: picas (1 pc = 12 pt) </li>
+            </ul>
+        </div>
+        <div class="container">
+            <img 
+            src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+            class="responsive-image"
+        >
+        </div>
+
+        <style>
+            .container {
+                width: 80%; /* 80% of body's width */
+            }
+
+            .responsive-image {
+                width: 100%; /* relative to the parent container */
+            }
+
+            body {
+                font-size: 16px;
+            }
+
+            .pixels {
+                font-size: 1.5em;
+            }
+
+            .pixel-div {
+                font-size: 24px;
+            }
+            /* 
+                100% = 2560 x 1600px 
+                font-size: 24px
+
+                50% = 12px (zoom-out)
+                200% = 48px (zoom-in)
+
+
+                body >
+                    div
+                    div
+                        ul > li
+                            em
+                    div
+                    div
+
+            */
+        </style>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            nav {
+                background-color: bisque;
+                color: red;
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+            }
+
+            .menu-list {
+                display: flex;
+            }
+
+            .menu-item {
+                margin-right: 20px;
+            }
+
+            .menu-icon {
+                font-size: 24px;
+                margin-right: 20px;
+                display: none;
+            }
+
+            /* media query */
+            /* for the screens less than or equal to 990 pixels */
+            @media (max-width: 420px){
+                .menu-list {
+                    display: none;
+                }
+
+                .menu-icon{
+                    display: block;
+                }
+            }
+
+            @media (min-width: 768px) {
+
+            }
+
+            @media (min-width: 768px) and (max-width: 1023px){
+                
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="menu-list">
+                <div class="menu-item">Home</div>
+                <div class="menu-item">About</div>
+                <div class="menu-item">Contact</div>
+            </div>
+        </nav>
+    </body>
+</html>
