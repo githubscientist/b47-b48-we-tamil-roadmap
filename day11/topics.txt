@@ -1,0 +1,3 @@
+What is RWD?
+What is mobile first approach?
+Bootstrap - 4.6
