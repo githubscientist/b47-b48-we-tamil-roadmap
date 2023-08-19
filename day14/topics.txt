@@ -1,0 +1,4 @@
+Window - Common Util functions
+setTimeout vs setInterval
+prompt, Alert, confirm
+working with events
