@@ -1,0 +1,9 @@
+Promise
+ - What is promise?
+ - Promise States
+ - Promise chain
+ - promise.all()
+ - Use of fetch() & then()
+
+Session Practice task in rest countries API:
+https://restcountries.eu/
