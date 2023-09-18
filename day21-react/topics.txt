@@ -1,0 +1,8 @@
+Contents:
+    Why react
+    Setup react project
+    Undetstanding JSX
+    Components (simple HTML layout to reusable react components)
+    Undetstanding the components
+    Passing data through props
+    Deploying react to netlify
