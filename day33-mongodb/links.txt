@@ -1,0 +1,9 @@
+
+MongoDB server
+https://www.mongodb.com/try/download/community
+
+MongoDB Compass
+https://www.mongodb.com/try/download/compass
+
+MongoDB Shell
+https://www.mongodb.com/try/download/shell
