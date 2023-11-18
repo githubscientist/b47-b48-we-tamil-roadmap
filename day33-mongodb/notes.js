@@ -84,5 +84,49 @@
            query: db.collection_name.insertMany([{key: value, key: value, key: value}, {key: value, key: value, key: value}, {key: value, key: value, key: value}]);
 
               Example: db.users.insertMany([{name: "John", age: 25, city: "New York"}, {name: "Smith", age: 30, city: "London"}, {name: "David", age: 35, city: "Paris"}]);
+        
+        6. Find documents in a collection
 
+              a. Find all documents in a collection
+
+                query: db.collection_name.find();
+                example: db.users.find();
+
+              b. Find all documents with a specific fields in a collection
+
+                query: db.collection_name.find({}, {key: 1, key: 1, key: 1});
+
+                or 
+
+                query: db.collection_name.find({}, {key: 0, key: 0, key: 0});
+
+                example: db.users.find({}, {name: 1, age: 1, _id: 0});
+
+        
+        Query Operators in MongoDB
+            a. or operator - $or - finds documents which satisfy at least one condition
+            b. and operator - $and - finds documents which satisfy all conditions
+            c. less than operator - $lt - finds documents which satisfy the condition less than a value
+            d. less than or equal to operator - $lte - finds documents which satisfy the condition less than or equal to a value
+            e. greater than operator - $gt - finds documents which satisfy the condition greater than a value
+            f. greater than or equal to operator - $gte - finds documents which satisfy the condition greater than or equal to a value
+            g. not equal to operator - $ne - finds documents which satisfy the condition not equal to a value
+            h. in operator - $in - finds documents which satisfy the condition in a list of values
+            i. not in operator - $nin - finds documents which satisfy the condition not in a list of values
+            j. equals operator - $eq - finds documents which satisfy the condition equal to a value
+
+    Tasks:
+
+    1. View all the documents in the users collection
+    2. View all the documents with name and age fields in the users collection
+    3. View all the documents with name and age fields in the users collection where age is greater than 30
+    4. View all the documents with name and age fields in the users collection where age is greater than or equal to 30
+    5. View all the documents with name and age fields in the users collection where age is less than 30
+    6. View all the documents with name and age fields in the users collection where age is less than or equal to 30
+    7. View all the documents with name and age fields in the users collection where age is not equal to 30
+    8. View all the documents with name and age fields in the users collection where age is in 30, 35, 40
+    9. View all the documents with name and age fields in the users collection where age is not in 30, 35, 40
+    10. View all the documents with name and age fields in the users collection where age is equal to 30
+    11. View all the documents with name and age fields in the users collection where age is equal to 30 or 35
+    12. View all the documents with name and age fields in the users collection where age is equal to 30 and 35
 */
